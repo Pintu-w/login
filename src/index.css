@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.main-container {
+  background-color: rgba(0, 0, 0, 0.979);
+  /* background-color: rgb(223, 215, 215); */
+  width: 100%;
+  height: 100vh;
+padding-inline:  10px;
+padding-block: 15px;
+  color: white;
+
+}
+.container {
+    overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(23, 26, 54, 0.979);
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 10px;
+  height:auto;
+}
+.list-container{
+  background-color: rgba(23, 26, 54, 0.979);
+  height: 90vh;
+  padding:5px 10px ;
+  border-radius: 10px;
+}
+h1 {
+  color: rgb(238, 238, 238);
+  font-size: 54px;
+  font-weight: 700;
+}
+
+h2{
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+ p{
+  color: rgb(167, 166, 166);
+ }
+
+
+
+.logo-container{
+  height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo{
+  width: 80px;
+}
+
+.input-container{
+  display: flex;
+justify-content: center;
+align-items: center;
+  width: 320px;
+   height: 35px;
+    background-color:rgba(248, 246, 246, 0.075);
+    border-radius: 10px;
+    padding: 7px 8px;
+}
+
+
+ input{
+    width: 100%;
+    outline: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(233, 229, 229) ;
+} 
+
+button {
+  color: rgb(241, 239, 239);
+  height: 35px;
+  border-radius: 30px;
+  background-color: rgba(71, 74, 238, 0.986);
+  width: 320px;
+  margin-top: 30px;
+}
+
+button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+label {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(243, 238, 238, 0.411);
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+
+
+table {
+  width: 100%;
+}
+
+
