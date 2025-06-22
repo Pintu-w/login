@@ -1,6 +1,6 @@
 import React from "react";
 import { Input } from "../Login/Input";
-import logo from '../assets/logo.png';
+import logo from '../assets/Logo.png';
 
 
 
