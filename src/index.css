@@ -57,13 +57,13 @@ h2{
 
 
 .logo-container{
-  height: 300px;
+  height: 280px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .logo{
-  width: 120px;
+  width: 100px;
 }
 
 .input-container{
