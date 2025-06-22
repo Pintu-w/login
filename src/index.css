@@ -1,10 +1,15 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
 body {
-  font-family: "Roboto", sans-serif;
+     font-family: "Montserrat", sans-serif;
 }
 .main-container {
-  background-color: rgba(0, 0, 0, 0.979);
+  /* background-color: rgba(0, 0, 0, 0.979); */
+
+background-image:url('./assets/bg.avif');
+background-size:cover ;
+background-repeat: no-repeat;
 /* background-color:rgb(245, 239, 239); */
   width: 100%;
   min-height: 100vh;
@@ -14,7 +19,7 @@ padding-block: 15px;
 
 }
 .container {
-    overflow: scroll;
+    overflow-y: scroll;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,13 +28,14 @@ padding-block: 15px;
   /* background-color: gray; */
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 10px;
+  padding-inline: 10px;
+  padding-block: 20px;
   border-radius: 10px;
-  height:auto;
+  min-height:100px;
 }
 .list-container{
   background-color: rgba(23, 26, 54, 0.979);
-  height: 90vh;
+  min-height: 100px;
   padding:5px 10px ;
   border-radius: 10px;
 }
@@ -57,7 +63,7 @@ justify-content: center;
 align-items: center;
 }
 .logo{
-  width: 80px;
+  width: 120px;
 }
 
 .input-container{

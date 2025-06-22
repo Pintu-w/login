@@ -6,7 +6,7 @@ export const VerifyPayments = () => {
     <div className="main-container ">
       <div className="container ">
         <h2>Verify Payments</h2>
-        <div className=" mb-4 flex justify-between gap-4 bg-indigo-700 rounded-2xl px-4 py-2  ">
+        <div className=" mb-4 flex justify-between gap-4 bg-indigo-900 rounded-2xl px-4 py-2  ">
           <div>
             <h3>Name</h3>
             <p>Keshab</p>
@@ -22,7 +22,7 @@ export const VerifyPayments = () => {
           </div>
         </div>
 
-       <div className=" mb-4 flex justify-between gap-4 bg-indigo-700 rounded-2xl px-4 py-2  ">
+       <div className=" mb-4 flex justify-between gap-4 bg-indigo-900 rounded-2xl px-4 py-2  ">
           <div>
             <h3>Name</h3>
             <p>Keshab</p>
@@ -37,7 +37,7 @@ export const VerifyPayments = () => {
             </Link>
           </div>
         </div>
-        <div className=" mb-4 flex justify-between gap-4 bg-indigo-700 rounded-2xl px-4 py-2  ">
+        <div className=" mb-4 flex justify-between gap-4 bg-indigo-900 rounded-2xl px-4 py-2  ">
           <div>
             <h3>Name</h3>
             <p>Keshab</p>
@@ -52,7 +52,7 @@ export const VerifyPayments = () => {
             </Link>
           </div>
         </div>
-       <div className=" mb-4 flex justify-between gap-4 bg-indigo-700 rounded-2xl px-4 py-2  ">
+       <div className=" mb-4 flex justify-between gap-4 bg-indigo-900 rounded-2xl px-4 py-2  ">
           <div>
             <h3>Name</h3>
             <p>Keshab</p>
@@ -67,7 +67,7 @@ export const VerifyPayments = () => {
             </Link>
           </div>
         </div>
-        <div className=" mb-4 flex justify-between gap-4 bg-indigo-700 rounded-2xl px-4 py-2  ">
+        <div className=" mb-4 flex justify-between gap-4 bg-indigo-900 rounded-2xl px-4 py-2  ">
           <div>
             <h3>Name</h3>
             <p>Keshab</p>

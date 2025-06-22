@@ -1,6 +1,7 @@
 import React from "react";
 import { Input } from "../Login/Input";
 import { Link } from "react-router";
+import qr from "../assets/qr2.png"
 
 export const PayAmount = () => {
   return (
@@ -11,6 +12,7 @@ export const PayAmount = () => {
           <p >2.04.2025 | 12:00 PM</p>
         </div>
         <div className="flex flex-col  text-center">
+          <div className="w-full p-7"><img className="w-full" src={qr} alt="" /></div>
           <h2> SCAN THE CODE AND PAY THE AMOUNT</h2>
           <div>OR PAY TO OUR UPI ID</div>
           <p>spectcorebusiness@0kaxis</p>

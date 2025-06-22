@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Input } from "./Input";
 import { Link } from "react-router";
-import logo from '../assets/freefire.png';
+import logo from '../assets/Logo.png';
 
 export const Login = () => {
   const [show, setShow] = useState(true);
@@ -10,13 +10,12 @@ export const Login = () => {
   const [link,setLink] = useState()
 useEffect(()=>{
 
-  if(email=="user"){
+  if(email=="user" && password == "123"){
     setLink('/tournament')
-  }else if (email=='admin'){
+  }else if (email=="admin" && password == "123"){
     setLink('/adminpanel')
   }
-},[email])
- console.log(link);
+},[email,password])
   const PasswordHandler = (e) => {
     setShow((prev) => !prev);
   };
@@ -45,7 +44,7 @@ useEffect(()=>{
             <div className="flex flex-col">
               <label className="label" htmlFor="password">PASSWORD</label>
               <div className="input-container  ">
-               <input type="password" onChange={(e)=>{setPassword(e.target.value)}} />
+               <input type={show?"password": "text"} onChange={(e)=>{setPassword(e.target.value)}} />
                 <div className="w-10 h-10 flex justify-center items-center" onClick={PasswordHandler}>
                   {show ? (
                       <i className="fa-solid fa-eye-slash"></i>

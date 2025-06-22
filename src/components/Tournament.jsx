@@ -12,7 +12,7 @@ export const Tournament = () => {
              <div>
                <span  >Winning Price</span>
             <p className='text-xs'>Rs 200</p></div>
-           <Link to='/home' className='ml-15 mt-4 bg-indigo-700 w-40 flex justify-center items-center rounded-2xl'>Check Tournaments</Link>
+           <Link to='/home' className=' ml-10 mt-4 bg-indigo-700 h-10 w-50 text-md flex items-center justify-center  rounded-2xl'>Check Tournaments</Link>
            </div>
 
             </div>

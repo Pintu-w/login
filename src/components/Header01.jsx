@@ -1,4 +1,4 @@
-import logo from '../assets/freefire.png';
+import logo from '../assets/Logo.png';
 import { FaUserCircle } from "react-icons/fa";
 import { Link } from "react-router";
 

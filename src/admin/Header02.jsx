@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/freefire.png';
+import logo from '../assets/Logo.png';
 
 export const Header02 = () => {
   return (

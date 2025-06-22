@@ -53,9 +53,8 @@ export const Home = () => {
           </div>
         </div>
         <div className="flex justify-between items-center w-full">
-          <div className="w-35 h-7 px-2 bg-amber-50 rounded-2xl" >
-                      <Input  type={"text"} />
-
+          <div className="w-35  px-2  rounded-2xl" >
+                  <input type="range" min="0"  max="100"/>
           </div>
           <Link to="/winnerlist" className="w-25 h-5 text-center rounded-2xl text-sm bg-indigo-700">WINNERLIST</Link>
           <Link  to="/payamount" className="w-18 h-5 text-center rounded-2xl text-sm bg-indigo-700">ENTER</Link>
