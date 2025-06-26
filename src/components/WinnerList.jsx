@@ -23,12 +23,12 @@ export const WinnerList  = () => {
         <tr className='text-center'>
             <td>1</td>
             <td>Rohit</td>
-            <td> <i className="fa-solid fa-indian-rupee-sign"></i>100</td>
+            <td> <i className="fa-solid fa-indian-rupee-sign fa-xs"></i>100</td>
         </tr>
         <tr className='text-center'>
-            <td>1</td>
+            <td>2</td>
             <td>Rohit</td>
-            <td> <i className="fa-solid fa-indian-rupee-sign"></i>100</td>
+            <td> <i className="fa-solid fa-indian-rupee-sign fa-xs"></i>100</td>
         </tr>
     </table>
 </div></div>
